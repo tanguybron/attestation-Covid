@@ -86,6 +86,7 @@ bouton_generer.click()
 
 # Pour ouvrir le PDF téléchargé
 time.sleep(2)
+# Mettre le chemin d'accès aux téléchargements
 browser.get('file:///C:/Users/Downloads/')
 
 # On trie l'affichage par odre de date
